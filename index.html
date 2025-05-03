@@ -5,15 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="./css/output.css">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" />
 </head>
 
-<body>
-    <div class="flex">
-        <div class="first bg-green-400 w-full">
-            <div class="logo">
+<body class=" bg-black text-white">
+    <!-- container -->
+    <div class="flex container mx-auto">
+
+        <!-- first column starts -->
+        <div class="first w-full pl-[60px] ">
+            <div class="logo invert">
                 <svg viewBox="0 0 24 24" aria-hidden="true"
                     class=" w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
                     <g>
@@ -23,15 +25,42 @@
                     </g>
                 </svg>
             </div>
-            <div class="sidebar">
-                <span class="material-symbols-outlined">
-                    home
-                    </span>
+            <div class="sidebar flex justify-end">
+
+                <ul class="flex flex-col text-2xl space-y-3 w-1/2">
+                    <li class="flex justify-flex-start items-center gap-3"><span 
+                        class="material-symbols-outlined">home</span>Home</li>
+                    <li class="flex justify-flex-start items-center gap-3"><span
+                            class="material-symbols-outlined">search</span>Explore</li>
+                    <li class="flex justify-flex-start items-center gap-3"><span
+                            class="material-symbols-outlined">Notifications</span>Notifications</li>
+                    <li class="flex justify-flex-start items-center gap-3"><span
+                            class="material-symbols-outlined">Filter</span>Grok</li>
+                    <li class="flex justify-flex-start items-center gap-3"><span
+                            class="material-symbols-outlined">List</span>Lists</li>
+                    <li class="flex justify-flex-start items-center gap-3"><span
+                            class="material-symbols-outlined">Bookmarks</span>Bookmarks</li>
+                    <li class="flex justify-flex-start items-center gap-3"><span
+                            class="material-symbols-outlined">Communities</span>Communities</li>
+                    <li class="flex justify-flex-start items-center gap-3"><span
+                            class="material-symbols-outlined">Paid</span>Premium</li>
+                    <li class="flex justify-flex-start items-center gap-3"><span
+                            class="material-symbols-outlined">Person</span>Profile</li>
+                    <li class="flex justify-flex-start items-center gap-3"><span
+                            class="material-symbols-outlined">More</span>More</li>
+                </ul>
             </div>
 
         </div>
-        <div class="second bg-red-600 w-full">b</div>
-        <div class="third bg-yellow-400 w-full">c</div>
+        <!-- first column ends -->
+
+        <!-- second column starts -->
+        <div class="second  w-full border-[1px] border-x-white border-y-black">b</div>
+        <!-- second column ends -->
+
+        <!-- third column starts -->
+        <div class="third w-full">c</div>
+        <!-- third column ends -->
     </div>
 </body>
 

@@ -11,7 +11,7 @@
 
 <body class=" bg-black text-white">
     <!-- container -->
-    <div class="flex container mx-auto">
+    <div class="flex container mx-auto my-4">
 
         <!-- first column starts -->
         <div class="first w-[70%] ">
@@ -75,23 +75,35 @@
 
         <!-- second column starts -->
         <div class="second w-full border-[1px] border-x-white border-y-black ">
-
-            <div class="top flex relative">
-                <div class="absolute bg-blue-600 w-9 h-2 bottom-0 left-1 "></div>
-                <div
-                    class="left w-1/2 py-3 text-xl font-bold  flex justify-center items-center hover:bg-gray-800 cursor-pointer">
-                    For you
-                </div>
-                <div
-                    class="right w-1/2 py-3 text-xl font-bold  flex justify-center items-center hover:bg-gray-800 cursor-pointer">
-                    Following</div>
+            <div class="top flex m-3 relative">
+                <div class="left w-1/2 text-lg font-bold flex justify-center">For you</div>
+                <div class="right w-1/2 text-lg font-bold flex justify-center">Following</div>
             </div>
-            <hr class="border-[1px]">
+            <div class=" h-[1px] bg-gray-700 w-full"></div>
+            <div class="whatsup flex gap-3">
+                <div class="img m-2">
+                    <img class=" w-14 rounded-full mx-5"
+                        src="https://tse3.mm.bing.net/th?id=OIP.JdAF9MkfYA92m1ocasMFJQHaHl&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div class="w-full">
+                    <input class="w-full h-7 my-2 bg-black text-white outline-none text-xl" type="text"
+                        placeholder="What's happening..">
+                    <div class=" text-blue-600 flex items-center gap-1 w-full my-4 ">
+                        <span class="material-symbols-outlined">
+                            globe_asia
+                        </span>
+                        <span class="">Everyone can reply</span>
+                    </div>
+                    <div class="w-[90%] h-[0.2px] bg-gray-400 my-3"></div>
+                </div>
+
+            </div>
+
         </div>
         <!-- second column ends -->
 
         <!-- third column starts -->
-        <div class="third w-full h-80">
+        <div class="third w-full">
             <div class="search m-3">
                 <input type="text"
                     class="w-1/2 px-2 py-3 mx-8 my-4 rounded-full bg-gray-900 text-white placeholder-white"

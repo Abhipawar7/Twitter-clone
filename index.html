@@ -26,48 +26,48 @@
                     </g>
                 </svg>
             </div>
-            <div class="sidebar flex justify-center">
+            <div class="sidebar flex items-end flex-col">
 
                 <ul class="flex flex-col text-2xl space-y-3 px-10">
                     <li
                         class="flex justify-start items-center gap-3 w-fit font-bold hover:bg-gray-900 hover:rounded-3xl hover:cursor-pointer px-5 py-2">
-                        <span class="text-3xl material-symbols-outlined">home</span>Home
+                        <span class="text-3xl material-symbols-outlined">home</span> <span class="hidden md:block">Home</span>
                     </li>
                     <li
                         class="flex justify-start items-center gap-3 w-fit font-bold hover:bg-gray-900 hover:rounded-3xl hover:cursor-pointer px-5 py-2">
-                        <span class="text-3xl material-symbols-outlined">search</span>Explore
+                        <span class="text-3xl material-symbols-outlined">search</span><span>Explore</span>
                     </li>
                     <li
                         class="flex justify-start items-center gap-3 w-fit font-bold hover:bg-gray-900 hover:rounded-3xl hover:cursor-pointer px-5 py-2">
-                        <span class="text-3xl material-symbols-outlined">Notifications</span>Notifications
+                        <span class="text-3xl material-symbols-outlined">Notifications</span><span>Notifications</span>
                     </li>
                     <li
                         class="flex justify-start items-center gap-3 w-fit font-bold hover:bg-gray-900 hover:rounded-3xl hover:cursor-pointer px-5 py-2">
-                        <span class="text-3xl material-symbols-outlined">settings</span>Settings
+                        <span class="text-3xl material-symbols-outlined">settings</span><span>Settings</span>
                     </li>
                     <li
                         class="flex justify-start items-center gap-3 w-fit font-bold hover:bg-gray-900 hover:rounded-3xl hover:cursor-pointer px-5 py-2">
-                        <span class="text-3xl material-symbols-outlined">List</span>Lists
+                        <span class="text-3xl material-symbols-outlined">List</span><span>Lists</span>
                     </li>
                     <li
                         class="flex justify-start items-center gap-3 w-fit font-bold hover:bg-gray-900 hover:rounded-3xl hover:cursor-pointer px-5 py-2">
-                        <span class="text-3xl material-symbols-outlined">Bookmarks</span>Bookmarks
+                        <span class="text-3xl material-symbols-outlined">Bookmarks</span><span>Bookmarks</span>
                     </li>
                     <li
                         class="flex justify-start items-center gap-3 w-fit font-bold hover:bg-gray-900 hover:rounded-3xl hover:cursor-pointer px-5 py-2">
-                        <span class="text-3xl material-symbols-outlined">Communities</span>Communities
+                        <span class="text-3xl material-symbols-outlined">Communities</span><span>Communities</span>
                     </li>
                     <li
                         class="flex justify-start items-center gap-3 w-fit font-bold hover:bg-gray-900 hover:rounded-3xl hover:cursor-pointer px-5 py-2">
-                        <span class="text-3xl material-symbols-outlined">Paid</span>Premium
+                        <span class="text-3xl material-symbols-outlined">Paid</span><span>Premium</span>
                     </li>
                     <li
                         class="flex justify-start items-center gap-3 w-fit font-bold hover:bg-gray-900 hover:rounded-3xl hover:cursor-pointer px-5 py-2">
-                        <span class="text-3xl material-symbols-outlined">Person</span>Profile
+                        <span class="text-3xl material-symbols-outlined">Person</span><span>Profile</span>
                     </li>
                     <li
                         class="flex justify-start items-center gap-3 w-fit font-bold hover:bg-gray-900 hover:rounded-3xl hover:cursor-pointer px-5 py-2">
-                        <span class="text-3xl material-symbols-outlined">More</span>More
+                        <span class="text-3xl material-symbols-outlined">More</span><span>More</span>
                     </li>
                     <li>
                         <button
@@ -132,6 +132,7 @@
 
             </div>
             <hr>
+            <!-- Posts  -->
             <div class="posts">
                 <div class="post">
                     <div class="flex">
@@ -147,37 +148,145 @@
                                 <img class="my-2 rounded-xl"
                                     src="https://pbs.twimg.com/media/GrKoPYGXcAAOW8e?format=jpg&name=small" alt="">
                             </div>
-                            <div class="icons">
-                                <div class="icon flex justify-around">
+                            <div class="icons flex justify-around items-center gap-3">
+                                <div class="icon flex items-center">
                                     <span class="material-symbols-outlined">
                                         comment
-                                    </span>
+                                    </span>2k
+                                </div>
+                                <div class="icon flex items-center">
                                     <span class="material-symbols-outlined">
                                         repeat
-                                    </span>
+                                    </span>1.2k
+                                </div>
+                                <div class="icon flex items-center">
                                     <span class="material-symbols-outlined">
                                         favorite
-                                    </span>
+                                    </span>3.5k
+                                </div>
+                                <div class="icon flex items-center">
                                     <span class="material-symbols-outlined">
-                                        trending_up
-                                    </span>
+                                        bar_chart
+                                    </span>5k
+                                </div>
+                                <div class="icon flex items-center">
                                     <span class="material-symbols-outlined">
                                         bookmark
                                     </span>
+                                </div>
+                                <div class="icon flex items-center">
                                     <span class="material-symbols-outlined">
                                         upload
                                     </span>
-
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <hr>
+                </div>
+                <div class="post">
+                    <div class="flex">
+                        <div class="image mx-2">
+                            <img class=" w-10 rounded-full m-3"
+                                src="https://i.pinimg.com/736x/02/db/4a/02db4a4200c1eb061f9bad7db2841b57.jpg" alt="">
+                        </div>
+                        <div class="content mx-2 py-2">
+                            <span class="font-bold hover:underline cursor-pointer text-white m-1">Jaiky Yadav
+                            </span><span class="text-gray-500">@JaikyYadav16 · 16h</span>
+                            <div>यह क्यों वायरल है?</div>
+                            <div class="postimg">
+                                <img class="my-2 rounded-xl"
+                                    src="https://pbs.twimg.com/media/GrKoPYGXcAAOW8e?format=jpg&name=small" alt="">
+                            </div>
+                            <div class="icons flex justify-around items-center gap-3">
+                                <div class="icon flex items-center">
+                                    <span class="material-symbols-outlined">
+                                        comment
+                                    </span>2k
+                                </div>
+                                <div class="icon flex items-center">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>1.2k
+                                </div>
+                                <div class="icon flex items-center">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>3.5k
+                                </div>
+                                <div class="icon flex items-center">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span>5k
+                                </div>
+                                <div class="icon flex items-center">
+                                    <span class="material-symbols-outlined">
+                                        bookmark
+                                    </span>
+                                </div>
+                                <div class="icon flex items-center">
+                                    <span class="material-symbols-outlined">
+                                        upload
+                                    </span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
-
-
+                <hr>
+                <div class="post">
+                    <div class="flex">
+                        <div class="image mx-2">
+                            <img class=" w-10 rounded-full m-3"
+                                src="https://i.pinimg.com/736x/02/db/4a/02db4a4200c1eb061f9bad7db2841b57.jpg" alt="">
+                        </div>
+                        <div class="content mx-2 py-2">
+                            <span class="font-bold hover:underline cursor-pointer text-white m-1">Jaiky Yadav
+                            </span><span class="text-gray-500">@JaikyYadav16 · 16h</span>
+                            <div>यह क्यों वायरल है?</div>
+                            <div class="postimg">
+                                <img class="my-2 rounded-xl"
+                                    src="https://pbs.twimg.com/media/GrKoPYGXcAAOW8e?format=jpg&name=small" alt="">
+                            </div>
+                            <div class="icons flex justify-around items-center gap-3">
+                                <div class="icon flex items-center">
+                                    <span class="material-symbols-outlined">
+                                        comment
+                                    </span>2k
+                                </div>
+                                <div class="icon flex items-center">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>1.2k
+                                </div>
+                                <div class="icon flex items-center">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>3.5k
+                                </div>
+                                <div class="icon flex items-center">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart
+                                    </span>5k
+                                </div>
+                                <div class="icon flex items-center">
+                                    <span class="material-symbols-outlined">
+                                        bookmark
+                                    </span>
+                                </div>
+                                <div class="icon flex items-center">
+                                    <span class="material-symbols-outlined">
+                                        upload
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+                <hr>
             </div>
-
+            <!-- posts end -->
         </div>
         <!-- second column ends -->
 
